@@ -1,0 +1,92 @@
+.App {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #85a8c5;
+  }
+  
+  .carousel {
+    overflow: hidden;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .shadow {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  .inner {
+    transition: transform 0.3s;
+    
+    display: flex;
+  }
+  
+  .carousel-item {
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    flex: 0 0 100%;
+  }
+
+  .carousel-item-heading{
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+  }
+  
+  .carousel-item-text {
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+    color: #617d98;
+  }
+  .carousel-img {
+    width: 250px;
+    padding: 0 20px 0 20px;
+  }
+  
+  /* final stage */
+  .carousal-button{
+    margin-top: 20px;
+  }
+  
+  .carousal-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .button-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .indicator-buttons {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .indicators > button {
+    margin: 5px;
+    background: none;
+  }
+  
+  .indicator-symbol {
+    color: #26343f;
+  }
+  
+  .indicator-symbol-active {
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,29 @@
+{
+  "name": "pserver",
+  "version": "1.0.0",
+  "description": "A personal portfolio api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankijit2/Portfolio.git"
+  },
+  "author": "Ankijit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankijit2/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ankijit2/Portfolio#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  }
+}
